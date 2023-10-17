@@ -1,0 +1,10 @@
+# Define and call a parameterised function with return value
+def display (x,y):
+    print("First parameter value is",x)
+    print("Second parameter value is",y)
+    c=x+y
+    return c
+# call display ()
+print("This program uses a parameterised function with returning value to its")
+m=display (10,20)
+print("Addition of given number",m)
